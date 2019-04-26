@@ -1,0 +1,90 @@
+package com.hbt.semillero.dto;
+
+import java.io.Serializable;
+import java.util.Calendar;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+
+import com.hbt.semillero.entidades.Bebida;
+import com.hbt.semillero.entidades.Cliente;
+import com.hbt.semillero.entidades.Plato;
+
+/**
+ * 
+ * @author SantiagoPC
+ *
+ */
+
+public class PedidoDTO implements Serializable {
+	
+
+	
+	private Long idPedido;
+	
+	
+	private Calendar fechaPedido;
+	
+	
+	private PlatoDTO plato;
+	
+	
+	private BebidaDTO bebida;
+	
+	
+	private ClienteDTO cliente;
+	
+	private double valorPedido;
+
+
+	public Calendar getFechaPedido() {
+		return fechaPedido;
+	}
+
+
+	public void setFechaPedido(Calendar fechaPedido) {
+		this.fechaPedido = fechaPedido;
+	}
+
+
+	public PlatoDTO getPlato() {
+		return plato;
+	}
+
+
+	public void setPlato(PlatoDTO plato) {
+		this.plato = plato;
+	}
+
+
+	public BebidaDTO getBebida() {
+		return bebida;
+	}
+
+
+	public void setBebida(BebidaDTO bebida) {
+		this.bebida = bebida;
+	}
+
+
+	public ClienteDTO getCliente() {
+		return cliente;
+	}
+
+
+	public void setCliente(ClienteDTO cliente) {
+		this.cliente = cliente;
+	}
+
+	public void setValorPedido(int valorPedido) {
+		this.valorPedido = valorPedido;
+	}
+	
+	
+
+
+	
+	
+	
+
+}

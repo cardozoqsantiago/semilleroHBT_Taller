@@ -1,0 +1,8 @@
+package com.hbt.semillero.servicios.interfaces;
+
+import javax.ejb.Local;
+
+@Local
+public interface IConsultasBean {
+
+}

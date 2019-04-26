@@ -1,0 +1,69 @@
+package com.hbt.semillero.servicios.ejb;
+
+
+import java.util.Calendar;
+import java.util.List;
+
+import javax.ejb.FinderException;
+import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
+
+import com.hbt.semillero.dto.BebidaDTO;
+import com.hbt.semillero.dto.PedidoDTO;
+import com.hbt.semillero.dto.PlatoDTO;
+import com.hbt.semillero.entidades.Bebida;
+import com.hbt.semillero.entidades.Cliente;
+import com.hbt.semillero.entidades.Pedido;
+import com.hbt.semillero.entidades.Plato;
+import com.hbt.semillero.servicios.interfaces.IConsultasBean;
+
+/**
+ * 
+ * @author SantiagoPC
+ *
+ */
+
+@Stateless
+public class ConsultasEjb implements IConsultasBean  {
+	
+	@PersistenceContext
+	private EntityManager entitymanager;
+	
+	@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)
+	public List<Plato> consultarPlato(){
+		return entitymanager.createQuery("Select pla FROM Plato pla").getResultList();
+		
+		
+	}
+	
+	
+	@TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
+	public int hacerPedido(PedidoDTO pedidoDTO, long idPlato, long idBebida, long idCliente) {
+		
+		double valor;
+		Plato plato = entitymanager.find(Plato.class, idPlato);
+		Bebida bebida = entitymanager.find(Bebida.class, idBebida);
+		Cliente cliente = entitymanager.find(Cliente.class, idCliente);
+		
+		Pedido pedido = new Pedido();
+		pedido.setPlato(plato);
+		pedido.setBebida(bebida);
+		pedido.setCliente(cliente);
+		pedido.setFechaPedido(pedidoDTO.getFechaPedido());
+		valor = pedido.setValorPedido(plato.getPrecio());
+		return 1;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

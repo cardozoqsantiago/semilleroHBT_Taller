@@ -1,0 +1,16 @@
+package com.hbt.semillero.dto;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+
+public class ClienteDTO {
+	
+	@GeneratedValue(generator = "SEQ")
+	@Column(name = "CLIENTE_ID")
+	private Long idCliente;
+	
+	
+	@Column(name = "CLIENTE_NOMBRE")
+	private String nombre;
+
+}

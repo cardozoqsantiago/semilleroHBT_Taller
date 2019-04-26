@@ -1,0 +1,25 @@
+package com.hbt.semillero.servicios.interfaces;
+
+import java.util.List;
+
+import javax.ejb.Local;
+
+import com.hbt.semillero.dto.PedidoDTO;
+import com.hbt.semillero.dto.PlatoDTO;
+import com.hbt.semillero.entidades.Plato;
+
+@Local
+public interface IConsultasBean {
+	
+	public void crearPlato(PlatoDTO platoDTO);
+	
+	public List<Plato> consultarPlato();
+	
+	public void eliminarPlato(PlatoDTO platoDTO);
+	
+	public double hacerPedido(PedidoDTO pedidoDTO, long idPlato, long idBebida, long idCliente);
+	
+	public void eliminarPedido(PedidoDTO pedidoDTO);
+	
+
+}

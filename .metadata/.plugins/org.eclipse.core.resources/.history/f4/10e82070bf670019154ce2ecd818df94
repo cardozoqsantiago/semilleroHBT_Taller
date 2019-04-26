@@ -1,0 +1,67 @@
+package com.hbt.semillero.dto;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+
+/**
+ * 
+ * @author SantiagoPC
+ *
+ */
+
+public class PlatoDTO implements Serializable {
+	
+
+	private Long idPlato;
+	
+	
+	private String nombre;
+	
+
+	private double precio;
+	
+	
+	private String descripcion;
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+	public void setPrecio(int precio) {
+		this.precio = precio;
+	}
+
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+
+	public double getPrecio() {
+		return precio;
+	}
+
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	
+	
+	
+	
+
+}

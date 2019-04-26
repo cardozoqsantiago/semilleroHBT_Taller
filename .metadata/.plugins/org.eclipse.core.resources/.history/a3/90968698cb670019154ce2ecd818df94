@@ -1,0 +1,59 @@
+package com.hbt.semillero.dto;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+/**
+ * Objeto de transferencia que mapea los atributos de la entidad Bebida
+ * @author SantiagoPC
+ *
+ */
+
+public class BebidaDTO implements Serializable {
+	
+	/**
+	 * Serial
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	
+	private Long idBebida;
+
+	
+	private String nombreBebida;
+	
+	
+	private double precio;
+
+
+	public String getNombreBebida() {
+		return nombreBebida;
+	}
+
+
+	public void setNombreBebida(String nombreBebida) {
+		this.nombreBebida = nombreBebida;
+	}
+
+	public void setPrecio(int precio) {
+		this.precio = precio;
+	}
+
+
+	public double getPrecio() {
+		return precio;
+	}
+
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,54 @@
+package com.hbt.semillero.servicios.ejb;
+
+
+import java.util.Calendar;
+import java.util.List;
+
+import javax.ejb.FinderException;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.hbt.semillero.dto.BebidaDTO;
+import com.hbt.semillero.dto.PedidoDTO;
+import com.hbt.semillero.dto.PlatoDTO;
+import com.hbt.semillero.entidades.Bebida;
+import com.hbt.semillero.entidades.Pedido;
+import com.hbt.semillero.entidades.Plato;
+import com.hbt.semillero.servicios.interfaces.IConsultasBean;
+
+@Stateless
+public class ConsultasEjb implements IConsultasBean  {
+	
+	@PersistenceContext
+	private EntityManager entitymanager;
+	
+	public List<Plato> consultarPlato(){
+		return entitymanager.createQuery("Select pla FROM Plato pla").getResultList();
+		
+		
+	}
+	
+	
+	
+	public int hacerPedido(PedidoDTO pedidoDTO, long idPlato, long idBebida, Calendar fecha) {
+		
+		Plato plato = entitymanager.find(Plato.class, idPlato);
+		Bebida bebida = entitymanager.find(Bebida.class, idBebida);
+		Pedido pedido = new Pedido();
+		pedido.setPlato(plato);
+		pedido.setBebida(bebida);
+		
+		
+		
+		
+		return 1;
+	}
+	
+	
+	
+	
+	
+	
+
+}

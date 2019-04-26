@@ -1,0 +1,40 @@
+package com.hbt.semillero.dto;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class BebidaDTO {
+	
+	
+	private Long idBebida;
+
+	
+	private String nombreBebida;
+	
+	
+	private int precio;
+
+
+	public String getNombreBebida() {
+		return nombreBebida;
+	}
+
+
+	public void setNombreBebida(String nombreBebida) {
+		this.nombreBebida = nombreBebida;
+	}
+
+
+	public int getPrecio() {
+		return precio;
+	}
+
+
+	public void setPrecio(int precio) {
+		this.precio = precio;
+	}
+	
+	
+
+}

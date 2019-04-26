@@ -1,0 +1,14 @@
+package com.hbt.semillero.servicios.interfaces;
+
+import javax.ejb.Local;
+
+import com.hbt.semillero.dto.PlatoDTO;
+
+@Local
+public interface IConsultasBean {
+	
+	public void crearPlato(PlatoDTO platoDTO);
+	
+	
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\SantiagoPC\Desktop\SemilletoTallerJueves\ambiente\semillero-hbt\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2095304013.index
+2001678075.index
+504086002.index
+160881428.index
+1906552322.index
+3707609680.index

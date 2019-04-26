@@ -1,0 +1,32 @@
+package com.hbt.semillero.entidades;
+
+import java.util.Calendar;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Table;
+/**
+ * Clase que gestiona un pedido
+ * 
+ *
+ */
+
+@Entity
+@Table(name="BEBIDA")
+public class Pedido {
+	
+	@GeneratedValue(generator = "SEQ")
+	@Column(name = "PEDIDO_ID")
+	private Long idPedido;
+	
+	@Column(name = "FECHA_PEDIDO")
+	private Calendar fechaPedido;
+	
+	private Plato plato;
+	
+	private Bebida bebida;
+	
+	
+
+}

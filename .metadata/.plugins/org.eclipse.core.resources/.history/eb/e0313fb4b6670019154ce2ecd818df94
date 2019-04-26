@@ -1,0 +1,19 @@
+package com.hbt.semillero.servicios.ejb;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.hbt.semillero.servicios.interfaces.IConsultasBean;
+
+@Stateless
+public class ConsultasEjb implements IConsultasBean  {
+	
+	@PersistenceContext
+	private EntityManager entitymanager;
+	
+	
+	
+	
+
+}

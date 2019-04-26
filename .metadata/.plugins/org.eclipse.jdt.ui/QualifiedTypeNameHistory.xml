@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.entidades.Pedido"/>
+<fullyQualifiedTypeName name="javax.ejb.FinderException"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.dto.BebidaDTO"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.entidades.Bebida"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="javax.ejb.TransactionAttributeType"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.entidades.Cliente"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.dto.ClienteDTO"/>
+<fullyQualifiedTypeName name="javax.ejb.TransactionAttribute"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.servicios.interfaces.IConsultasBean"/>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.entidades.Plato"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.dto.PlatoDTO"/>
+<fullyQualifiedTypeName name="javax.ejb.Remove"/>
+<fullyQualifiedTypeName name="javax.ws.rs.POST"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.dto.ResultadoDTO"/>
+<fullyQualifiedTypeName name="com.hbt.semillero.dto.PedidoDTO"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+</qualifiedTypeNameHistroy>

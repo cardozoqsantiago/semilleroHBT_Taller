@@ -1,0 +1,12 @@
+package com.hbt.semillero.servicios;
+
+import javax.ws.rs.Path;
+
+import com.hbt.semillero.servicios.interfaces.IConsultasBean;
+
+@Path("/ServiciosRest")
+public class ServiciosRest {
+	
+	private IConsultasBean consultasBean;
+
+}

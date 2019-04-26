@@ -1,0 +1,9 @@
+package com.hbt.semillero.dto;
+
+import java.io.Serializable;
+
+public class PedidoDTO implements Serializable {
+	
+	
+
+}

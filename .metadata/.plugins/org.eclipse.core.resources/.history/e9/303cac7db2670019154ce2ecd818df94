@@ -1,0 +1,7 @@
+package com.hbt.semillero.dto;
+
+import java.io.SerializablePermission;
+
+public class PedidoDTO extends SerializablePermission {
+
+}
