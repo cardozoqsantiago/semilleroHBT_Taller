@@ -335,3 +335,32 @@
 2019-04-25 22:08:47,080 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-25 22:08:47,081 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-04-25 22:08:47,086 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2019-04-26 15:09:52,213 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-26 15:10:05,117 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 15:10:05,125 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-26 15:10:05,165 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2019-04-26 15:10:10,716 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 15:10:10,716 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SantiagoPC\Desktop\SemilletoTallerJueves\ambiente\semillero-hbt\semillero-padre\semillero-web\src\main\resources
+2019-04-26 15:10:10,719 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2019-04-26 15:10:10,726 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 15:10:10,726 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SantiagoPC\Desktop\SemilletoTallerJueves\ambiente\semillero-hbt\semillero-padre\semillero-web\src\main\angular\dist
+2019-04-26 15:10:25,066 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-04-26 16:28:51,614 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-26 16:29:03,353 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2019-04-26 16:29:11,437 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 16:29:11,445 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-26 16:29:11,548 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2019-04-26 16:29:20,109 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 16:29:20,109 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SantiagoPC\Desktop\SemilletoTallerJueves\ambiente\semillero-hbt\semillero-padre\semillero-web\src\main\resources
+2019-04-26 16:29:20,112 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2019-04-26 16:29:20,119 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-26 16:29:20,119 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SantiagoPC\Desktop\SemilletoTallerJueves\ambiente\semillero-hbt\semillero-padre\semillero-web\src\main\angular\dist
+2019-04-27 14:12:03,877 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-27 14:12:21,637 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 14:12:21,684 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-27 14:12:21,760 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2019-04-27 14:12:32,655 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 14:12:32,656 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SantiagoPC\Desktop\SemilletoTallerJueves\ambiente\semillero-hbt\semillero-padre\semillero-web\src\main\resources
+2019-04-27 14:12:32,659 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2019-04-27 14:12:32,670 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-27 14:12:32,670 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SantiagoPC\Desktop\SemilletoTallerJueves\ambiente\semillero-hbt\semillero-padre\semillero-web\src\main\angular\dist

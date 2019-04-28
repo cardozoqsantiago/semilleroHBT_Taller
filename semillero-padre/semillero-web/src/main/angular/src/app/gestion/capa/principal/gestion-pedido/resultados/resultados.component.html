@@ -1,0 +1,26 @@
+
+<div style="padding: 10px; float: left;; width: 50%; text-align: justify">
+
+  <form>
+    <p>
+    <label for="Plato">Platos</label>
+    <select class="form-control" [(ngModel)]="platoseleccionado" >
+      <option *ngFor="let PlatoServicioDTO of ListaPlatoDTO" [ngValue]="PlatoServicioDTO">{{PlatoServicioDTO.nombre}}</option>
+    </select>
+    </p>
+
+        <p>
+        <label for="Bebida">Bebidas</label>
+        <select class="form-control" [(ngModel)]="bebidaSeleccionada" >
+          <option *ngFor="let BebidaServicioDTO of ListaBebidaDTO" [ngValue]="BebidaServicioDTO">{{BebidaServicioDTO.nombre}}</option>
+        </select>
+        </p>
+
+        <h2>Llamado servicios</h2>
+        <input value="Hacer Pedido" type="submit" (click)="crearPedido()" />
+        <pre>{{ listaPedidoDTO | json }}</pre>
+      
+
+  </form>
+</div>
+
